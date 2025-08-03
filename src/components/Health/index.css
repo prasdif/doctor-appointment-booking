@@ -1,0 +1,334 @@
+.background {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+} 
+
+.headerspara {
+  background-color: #4fcb52;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #003366;
+  color: white;
+  padding: 1rem 2rem;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-icon {
+  font-size: 1.8rem;
+  margin-right: 0.5rem;
+  color: #48a0ff;
+}
+
+.logo-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.boldimg {
+  width: 100%;
+  max-width: 600px;
+  margin-top: 2rem;
+}
+
+.nav-link {
+  color: #d0d0d0;
+  text-decoration: none;
+  font-size: 1rem;
+  position: relative;
+}
+
+.nav-link.active,
+.nav-link:hover {
+  color: #48a0ff;
+}
+
+.nav-link.active::after {
+  content: '';
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #48a0ff;
+}
+
+.main-content {
+  text-align: center;
+  padding: 3rem 2rem;
+}
+
+.heading { 
+  display: flex;
+  font-size: 40px;
+  margin: 0px;
+  padding-bottom: 10px;
+  color: #072c53;
+}
+
+.contextpara {
+  display: block; 
+  font-size: 1.1rem;
+  color: #555;
+  max-width: 600px;
+  margin: 0; 
+  text-align: left; 
+}
+
+.parts { 
+  color: #002c5a;
+
+} 
+
+.heading-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem; 
+}
+
+.heading {
+  margin: 0;
+  font-size: 2rem;
+  color: #002f5f;
+}
+
+.svgicon { 
+  color: #48a0ff;
+  width: 50px;
+  height: auto;
+  margin-left: 15px;
+
+}
+
+
+
+.bookclininc { 
+  display: flex; 
+  flex-direction: flex-start;
+  margin-bottom: 0px;
+  margin: 70px;
+  font-size: 26px; 
+}
+
+.paraspecial { 
+  display: flex; 
+  flex-direction: flex-start; 
+  margin: 70px;
+  font-size: 25px;
+  margin-top: 0px;
+  margin-bottom: 0.2rem;
+}  
+
+.burs {
+  font-size: 15px;
+  color: antiquewhite;
+}
+
+.doctorinfo {
+  height: 200px; 
+  border-radius: 10px;
+}
+
+.containerino {
+  display: flex;
+  flex-direction: row; 
+  padding-left: 60px;
+
+}
+
+
+
+.main-container {
+  position: relative;
+  padding: 2rem;
+}
+
+.top-icon {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  max-width: 150px; 
+  height: auto;
+  z-index: 10;
+}
+
+
+
+.heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #002f5f;
+}
+
+.contextpara {
+  font-size: 1.1rem;
+  color: #333;
+  margin-top: 1rem;
+}
+
+.boldimg {
+  width: 100%;
+  max-width: 600px;
+  margin-top: 2rem;
+}
+
+
+.main-container {
+  position: relative;
+  padding: 3rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.main-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.top-icon {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+
+
+.main-content {
+  max-width: 600px;
+  text-align: left;
+}
+
+.heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #002f5f;
+  margin-bottom: 1rem;
+}
+
+.contextpara {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.features-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 3rem;
+  padding: 0 2rem;
+}
+
+.feature-box {
+  width: 100%;
+  max-width: 300px;
+  text-align: center;
+}
+
+.feature-box img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #f0f4fa;
+  padding: 10px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+.features-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 2rem;
+  flex-wrap: wrap;
+  padding: 3rem;
+}
+
+
+.feature-box {
+  width: 300px;
+  text-align: center;
+  padding: 1rem;
+}
+
+.feature-box img {
+  width: 100px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  .features-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feature-box {
+    width: 90%;
+  }
+}
+
+.bookappointmentheading {
+  color: #002c5a;
+} 
+
+.bookappointmentpara {
+  font-size: 20px;
+}
+
+.bookcontainer {
+  text-align: center; 
+
+}
+
+.booking-icons {
+  display: flex;
+  justify-content: center;
+  gap: 200px; 
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.icon-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-item img {
+  width: 65px;
+  height: 65px;
+  background-color: #e6f1ff;
+  padding: 16px;
+  border-radius: 50%;
+  margin-bottom: 12px;
+  object-fit: contain;
+}
+
+.icon-item p {
+  font-size: 17px;
+  font-weight: 600;
+  color: #000;
+  margin: 0;
+}

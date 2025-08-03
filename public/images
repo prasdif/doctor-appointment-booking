@@ -1,0 +1,36 @@
+const doctors = [
+  {
+    id: 1,
+    name: "Dr. Sarah Johnson",
+    specialty: "Cardiology",
+    rating: 4.9,
+    status: "Available",
+    image: "/images/doc1.png",
+  },
+  {
+    id: 2,
+    name: "Dr. Michael Chen",
+    specialty: "Dermatology",
+    rating: 4.7,
+    status: "Available",
+    image: "/images/doc2.png",
+  },
+  {
+    id: 3,
+    name: "Dr. Emily Rodriguez",
+    specialty: "General Medicine",
+    rating: 4.8,
+    status: "Busy",
+    image: "/images/doc3.png",
+  },
+  {
+    id: 4,
+    name: "Dr. James Wilson",
+    specialty: "Neurology",
+    rating: 4.9,
+    status: "Available",
+    image: "/images/doc4.png",
+  },
+
+  // more doctors...
+];
